@@ -1,29 +1,30 @@
-# Exercise 1.12 - Seconds in a day
+# Exercise 1.13 - Sum of two numbers
 
-In the exercise template, implement a program that asks the user for the number of days. After that, the program prints the number of seconds in the given number of days.
+Write a program that asks the user for two numbers. After this, the program prints the sum of the numbers given by the user.
 
-In the course material, we learned to read an input in the following manner:
+When you ask for multiple numbers, create a separate variable for each:
 
 ```python
-number = int(input('Give a number:'))
+first = int(input('Give the first number:'))
+second = int(input('Give the second number:'))
+
+# do something with the numbers
 ```
 
 Examples of expected output:
 
 ```plaintext
-How many days would you like to convert to seconds?
-1
-86400
-```
-
-```plaintext
-How many days would you like to convert to seconds?
+Give the first number:
+8
+Give the second number:
 3
-259200
+The sum of the numbers is 11
 ```
 
 ```plaintext
-How many days would you like to convert to seconds?
-7
-604800
+Give the first number:
+3
+Give the second number:
+-1
+The sum of the numbers is 2
 ```
